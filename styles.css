@@ -1,0 +1,57 @@
+body {
+	color: #232842;
+}
+
+.mission {
+
+}
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.one {
+	width: 60%;
+}
+
+.two{
+	width: 35%;
+	padding-right: : 75px;
+}
+
+.picture {
+	position: relative;
+	padding-top: 10%;
+	padding-left: 20%;
+}
+
+img {
+	position: relative;
+	width: 468px;
+	height: auto;	
+}
+
+
+.header {
+
+	text-align: center;
+	margin-top: 0;
+	background-color: #DEC0CE;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.description {
+	position: relative;
+	text-align: center;
+	margin-top: 0;
+	font-family: Roboto;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;   
+}
+
