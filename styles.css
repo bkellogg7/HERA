@@ -32,8 +32,6 @@ body {
 	position: relative;
 	width: 468px;
 	height: auto;
-	/*padding-left: 20%;	
-	padding-top: 10%;*/
 	margin:auto;
 }
 
@@ -42,7 +40,6 @@ body {
 	position: relative;
 	width: 493;
 	height: auto;
-	/*padding-left: 10%;*/
 	margin:auto;
 }
 
@@ -79,5 +76,3 @@ h1 {
 	padding-left: 10%;
 	padding-right: 10%;   
 }
-
-
