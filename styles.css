@@ -77,6 +77,76 @@ a {
 	color: #232842;
 	text-transform:uppercase;
 }
+
+.column {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+
+.one,.four {
+	width: 60%;
+}
+
+.two,.three{
+	width: 40%;
+	
+}
+.picture_mission,.picture_team, .video {
+	position: relative;
+	padding-top:37px;
+}
+
+.picture_mission img {
+	display:block;
+	position: relative;
+	width: 468px;
+	height: auto;
+	margin:auto;
+}
+
+.picture_team img{
+	display:block;
+	position: relative;
+	width: 493;
+	height: auto;
+	margin:auto;
+}
+
+.video iframe{
+	display:block;
+	position: relative;
+	margin:auto;
+}
+
+
+.header {
+	background-color: #DEC0CE;
+	text-align: center;
+	font-family: Oswald;
+	font-style: normal;
+	/*font-weight: 300;*/
+	line-height: normal;
+	padding: 15px;
+}
+.three .header{
+	background-color: #ADB8D3;
+
+}
+h1 {
+	margin:0;
+}
+
+.description {
+	position: relative;
+	position: relative;
+	text-align: center;
+	margin-top: 0;
+	font-family: Roboto;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
 .donate-body{
 	width: 100%;
 }
