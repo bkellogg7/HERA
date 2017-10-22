@@ -32,6 +32,7 @@ a {
 	background-size: cover;
 	background-position: bottom;
 	position:relative;
+	margin-bottom: 20px;
 }
 .title {
 	position:absolute;
