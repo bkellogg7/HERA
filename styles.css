@@ -5,6 +5,9 @@ a {
 	text-decoration:none;
 	color:#232842;
 }
+.column p{
+	font-size: 24px;
+}
 .navbar{
 	background: #232842;
 	position: fixed;
@@ -93,7 +96,7 @@ a {
 	width: 40%;
 	
 }
-.picture_mission,.picture_team, .video {
+.picture_mission,.picture_team, .picture_project {
 	position: relative;
 	padding-top:37px;
 }
@@ -101,7 +104,7 @@ a {
 .picture_mission img {
 	display:block;
 	position: relative;
-	width: 468px;
+	width: 75%;
 	height: auto;
 	margin:auto;
 }
@@ -109,17 +112,25 @@ a {
 .picture_team img{
 	display:block;
 	position: relative;
-	width: 493;
+	width: 75%;
 	height: auto;
 	margin:auto;
 }
 
-.video iframe{
+.picture_project img{
+	display: block;
+	position: relative;
+	width: 75%;
+	height: auto;
+	margin:auto;
+}
+
+/*.video iframe{
 	display:block;
 	position: relative;
 	margin:auto;
 	border-radius: 50%;
-}
+}*/
 
 
 .header {
