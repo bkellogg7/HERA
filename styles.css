@@ -3,6 +3,7 @@ body {
 }
 a {
 	text-decoration:none;
+	color:#232842;
 }
 .navbar{
 	background: #232842;
@@ -83,6 +84,28 @@ a {
 	font-family:Roboto;
 	font-weight:300;
 	font-size:24px;
-	width:60%;
+	width:40%;
 	margin:50px auto;
+}
+.donate-btn {
+	width:200px;
+	height:200px;
+	background-color:#DEC0CE;
+	margin: 70px auto;
+	border-radius:200px;
+	line-height:200px;
+}
+.btn-text{
+	line-height:normal;
+	vertical-align: middle;
+	display:inline-block;
+	text-align:center;
+	font-size:30px;
+	font-family:Roboto;
+	font-weight:300;
+}
+.here{
+	font-family:Oswald;
+	font-weight:400;
+	text-transform:uppercase;
 }
