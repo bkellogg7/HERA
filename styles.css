@@ -89,30 +89,38 @@ a {
 }
 
 .one,.four {
-	width: 60%;
+	width: 57%;
 }
 
 .two,.three{
-	width: 40%;
+	width: 43%;
 	
 }
 .picture_mission,.picture_team, .picture_project {
 	position: relative;
 	padding-top:37px;
 }
+/*.picture_mission, .picture_team{
+	margin-right: 30px;
+}
+.picture_project{
+	margin-left: 30px;
+}*/
+
 
 .picture_mission img {
 	display:block;
 	position: relative;
-	width: 75%;
+	width: 65%;
 	height: auto;
 	margin:auto;
+	margin-right: 10%;
 }
 
 .picture_team img{
 	display:block;
 	position: relative;
-	width: 75%;
+	width: 65%;
 	height: auto;
 	margin:auto;
 }
@@ -120,7 +128,7 @@ a {
 .picture_project img{
 	display: block;
 	position: relative;
-	width: 75%;
+	width: 65%;
 	height: auto;
 	margin:auto;
 }
@@ -154,6 +162,8 @@ h1 {
 	margin:0;
 }
 
+
+
 .description {
 	position: relative;
 	position: relative;
@@ -164,6 +174,11 @@ h1 {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+.about{
+	/*padding-right: 18.75%;*/
+}
+
+
 .donate-body{
 	width: 100%;
 }
