@@ -1,57 +1,89 @@
 body {
+	margin: 0;
+}
+a {
+	text-decoration:none;
+}
+.navbar{
+	background: #232842;
+	position: fixed;
+	width:100%;
+	height:55px;
+	font-family: Roboto;
+	list-style:none;
+	top:0;
+	margin:0 auto;
+	padding:0px 10%;
+	z-index:999;
+	box-shadow:0px 3px 4px rgba(0,0,0,0.25);
+}
+.navbar li{
+	display:inline-block;
+	width:20%;
+	color: #FFF;
+	padding:20px 0;
+	text-align: center;
+}
+.banner {
+	margin-top:55px;
+	width:100%;
+	height:700px;
+	background: linear-gradient(180deg, #FFFFFF 10%, rgba(255, 255, 255, 0) 100%), url('banner-bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	position:relative;
+}
+.title {
+	position:absolute;
+	top:30px;
+	left:20%;
+	right:20%;
+	width:60%;
+	text-align:center;
 	color: #232842;
 }
-
-.mission {
-
+.title h1{
+	font-family:Oswald;
+	font-weight:300;
+	font-size:64px;
+	text-transform:uppercase;
+	letter-spacing:;
 }
-
-.column {
-	display: inline-block;
-	vertical-align: top;
+.title h2{
+	margin-top:-10px;
+	font-family:Roboto;
+	font-weight:300;
+	font-size:36px;
+	letter-spacing: 3.6px;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+	text-transform:uppercase;
 }
-
-.one {
-	width: 60%;
+.donate {
+	width:100%;
+	margin-top:50px;
 }
-
-.two{
-	width: 35%;
-	padding-right: : 75px;
+.donate-header{
+	background:#ADB8D3;
+	width:100%;
+	height:80px;
 }
-
-.picture {
-	position: relative;
-	padding-top: 10%;
-	padding-left: 20%;
-}
-
-img {
-	position: relative;
-	width: 468px;
-	height: auto;	
-}
-
-
-.header {
-
-	text-align: center;
-	margin-top: 0;
-	background-color: #DEC0CE;
-
+.donate-header h1{
 	font-family: Oswald;
-	font-style: normal;
 	font-weight: 300;
-	line-height: normal;
-}
-
-.description {
-	position: relative;
+	font-size: 36px;
+	line-height:80px;
 	text-align: center;
-	margin-top: 0;
-	font-family: Roboto;
-	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;   
+	color: #232842;
+	text-transform:uppercase;
 }
-
+.donate-body{
+	width: 100%;
+}
+.donate-body p{
+	font-family:Roboto;
+	font-weight:300;
+	font-size:24px;
+	width:60%;
+	margin:50px auto;
+}
+>>>>>>> 2c757e37f966641071ec1ebe4809ec0e758d6a24
