@@ -5,6 +5,9 @@ a {
 	text-decoration:none;
 	color:#232842;
 }
+.column p{
+	font-size: 24px;
+}
 .navbar{
 	background: #232842;
 	position: fixed;
@@ -33,6 +36,7 @@ a {
 	background-size: cover;
 	background-position: bottom;
 	position:relative;
+	margin-bottom: 20px;
 }
 .title {
 	position:absolute;
@@ -85,42 +89,63 @@ a {
 }
 
 .one,.four {
-	width: 60%;
+	width: 57%;
 }
 
 .two,.three{
-	width: 40%;
+	width: 43%;
 	
 }
+<<<<<<< HEAD
 .mission{
 	margin-top:50px;
 }
 .picture_mission,.picture_team, .video {
+=======
+.picture_mission,.picture_team, .picture_project {
+>>>>>>> 1d3fa32c8c8964dbff810f85cbadd2f79e50b11a
 	position: relative;
 	padding-top:37px;
 }
+/*.picture_mission, .picture_team{
+	margin-right: 30px;
+}
+.picture_project{
+	margin-left: 30px;
+}*/
+
 
 .picture_mission img {
 	display:block;
 	position: relative;
-	width: 468px;
+	width: 65%;
 	height: auto;
 	margin:auto;
+	margin-right: 10%;
 }
 
 .picture_team img{
 	display:block;
 	position: relative;
-	width: 493;
+	width: 65%;
 	height: auto;
 	margin:auto;
 }
 
-.video iframe{
+.picture_project img{
+	display: block;
+	position: relative;
+	width: 65%;
+	height: auto;
+	margin:auto;
+}
+
+/*.video iframe{
 	display:block;
 	position: relative;
 	margin:auto;
-}
+	border-radius: 50%;
+}*/
 
 
 .header {
@@ -128,13 +153,20 @@ a {
 	text-align: center;
 	font-family: Oswald;
 	font-style: normal;
-	/*font-weight: 300;*/
 	line-height: normal;
 	padding: 15px;
 }
+<<<<<<< HEAD
 .header h1{
 	font-weight:300;
 }
+=======
+
+.header h1 {
+	font-weight: 300;
+}
+
+>>>>>>> 1d3fa32c8c8964dbff810f85cbadd2f79e50b11a
 .three .header{
 	background-color: #ADB8D3;
 
@@ -142,6 +174,8 @@ a {
 h1 {
 	margin:0;
 }
+
+
 
 .description {
 	position: relative;
@@ -153,6 +187,11 @@ h1 {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+.about{
+	/*padding-right: 18.75%;*/
+}
+
+
 .donate-body{
 	width: 100%;
 }
