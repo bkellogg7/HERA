@@ -5,6 +5,9 @@ a {
 	text-decoration:none;
 	color:#232842;
 }
+h1{
+	font-weight: normal;
+}
 .column p{
 	font-size: 24px;
 }
@@ -117,7 +120,12 @@ a {
 	width: 65%;
 	height: auto;
 	margin:auto;
-	margin-right: 10%;
+
+}
+
+.content h1{
+	background-color: #DEC0CE;
+
 }
 
 .picture_team img{
@@ -201,7 +209,7 @@ h1 {
 .donate-btn {
 	width:200px;
 	height:200px;
-	background-color:#DEC0CE;
+	background-color:#ADB8D3;
 	margin: 70px auto;
 	border-radius:200px;
 	line-height:200px;
@@ -256,4 +264,6 @@ h1 {
 	text-align:center;
 
 }
->>>>>>> ef9188be1ef9334b3156464d912e21f4d57cb5ee
+#donate_paragraph{
+	text-align: center;
+}
