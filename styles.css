@@ -92,6 +92,9 @@ a {
 	width: 40%;
 	
 }
+.mission{
+	margin-top:50px;
+}
 .picture_mission,.picture_team, .video {
 	position: relative;
 	padding-top:37px;
@@ -129,6 +132,9 @@ a {
 	line-height: normal;
 	padding: 15px;
 }
+.header h1{
+	font-weight:300;
+}
 .three .header{
 	background-color: #ADB8D3;
 
@@ -155,7 +161,7 @@ h1 {
 	font-weight:300;
 	font-size:24px;
 	width:40%;
-	margin:50px auto;
+	margin:70px auto;
 }
 .donate-btn {
 	width:200px;
@@ -178,4 +184,38 @@ h1 {
 	font-family:Oswald;
 	font-weight:400;
 	text-transform:uppercase;
+}
+
+.contact{
+	background-color:#F2F2F2;
+	padding:5%;
+}
+.contact h1{
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 36px;
+	line-height:80px;
+	text-align: center;
+	color: #232842;
+	text-transform:uppercase;
+}
+.contact .content {
+	text-align:center;
+}
+.contact-btn{
+	margin:30px;
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background-color:#ADB8D3;
+	border-radius:200px;
+	line-height:100px;
+	text-align:center;
+}
+.contact-btn-text{
+	line-height:normal;
+	vertical-align: middle;
+	display:inline-block;
+	text-align:center;
+
 }
