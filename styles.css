@@ -96,6 +96,9 @@ a {
 	width: 43%;
 
 }
+.mission{
+	margin-top:50px;
+}
 .picture_mission,.picture_team, .picture_project {
 	position: relative;
 	padding-top:37px;
@@ -149,11 +152,17 @@ a {
 	line-height: normal;
 	padding: 15px;
 }
+<<<<<<< HEAD
+.header h1{
+	font-weight:300;
+}
+=======
 
 .header h1 {
 	font-weight: 300;
 }
 
+>>>>>>> 1d3fa32c8c8964dbff810f85cbadd2f79e50b11a
 .three .header{
 	background-color: #ADB8D3;
 
@@ -187,7 +196,7 @@ h1 {
 	font-weight:300;
 	font-size:24px;
 	width:40%;
-	margin:50px auto;
+	margin:70px auto;
 }
 .donate-btn {
 	width:200px;
@@ -211,3 +220,40 @@ h1 {
 	font-weight:400;
 	text-transform:uppercase;
 }
+<<<<<<< HEAD
+=======
+
+.contact{
+	background-color:#F2F2F2;
+	padding:5%;
+}
+.contact h1{
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 36px;
+	line-height:80px;
+	text-align: center;
+	color: #232842;
+	text-transform:uppercase;
+}
+.contact .content {
+	text-align:center;
+}
+.contact-btn{
+	margin:30px;
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background-color:#ADB8D3;
+	border-radius:200px;
+	line-height:100px;
+	text-align:center;
+}
+.contact-btn-text{
+	line-height:normal;
+	vertical-align: middle;
+	display:inline-block;
+	text-align:center;
+
+}
+>>>>>>> ef9188be1ef9334b3156464d912e21f4d57cb5ee
